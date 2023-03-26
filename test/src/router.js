@@ -9,7 +9,8 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
-  // 페이지로 넘길 오브젝트를 매핑
+
+  // 페이지로 넘길 컴포넌트를 매핑
   routes: [
     {path: '/', component: Home},
     {path:'/about', component: About}
