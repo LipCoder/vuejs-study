@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "async": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  },
+  "scripts": {
+    "build": "babel src -d result"
+  }
+}
